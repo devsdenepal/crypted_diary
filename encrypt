@@ -1,0 +1,2 @@
+wget  "https://csarmynepal.000webhostapp.com/crypted_diary/?pass=0\&decrypt=$1" -q -O $2.crypted_diary
+cat $2.crypted_diary

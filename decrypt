@@ -1,0 +1,5 @@
+#!/bin/bash
+var=$(cat $1);
+wget "https://csarmynepal.000webhostapp.com/crypted_diary/?pass=0\&encrypt=$var" -q -O $1;
+echo "Decrypting...";
+cat $1
