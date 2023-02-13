@@ -2,6 +2,6 @@
 ## About
 ```Binary based simple encryption which talks to  a PHP server to encrypt and decrypt text(s).```
 ## Encrypt
-```./encrypt "message" filename.crypted_diary```
+```./encrypt "message" filename```
 ## Decrypt 
-```./decrypt filename_without_extension```
+```./decrypt filename.crypted_diary```
